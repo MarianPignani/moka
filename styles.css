@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+
+.contHeader {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    background-color: rgb(252, 246, 207);
+    height: 70px;
+    text-align: center;
+}
+
+.divBoton {
+    padding-top: 21px;
+}
+
+.boton {
+    width: 100px;
+    background-color: #bea072;
+    text-align: center;
+    height: 30px;
+    border-radius: 50px;
+    color: beige;
+    border-color: beige;
+    font-weight: bold;
+    font-size: 11px;
+    transition: 0.7s;
+}
+
+.boton:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.logo {
+    width: 30px;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.carrito {
+    width: 30px;
+    height: auto;
+    padding-top: 22px;
+    text-align: center;
+    filter: invert(52%) sepia(42%) saturate(323%) hue-rotate(358deg) brightness(94%) contrast(85%);
+    transition: 0.7s;
+}
+
+.carrito:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.contNav {
+    background-color: rgb(173, 146, 104);
+    height: 40px;
+}
+
+.barra {
+    padding-top: 10px;
+}
+
+.listas {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista {
+    display: inline-block;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.7s;
+    
+}
+
+.menu:hover {
+    color: white;
+}
+
+.fondoUno {
+    width: 100%;
+    background-image: url(img/fondd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    background-position: center;
+}
+
+.contText {
+    width: 400px;
+    color: rgb(53, 22, 22);
+    padding-top: 80px;
+    margin-left: 140px;
+    font-size: 18px;
+}
+
+.productos {
+    width: 100%;
+    background-color: rgb(253, 240, 210);
+    height: 700px;
+}
+
+.titu {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 30px;
+}
+
+.cont1 {
+    width: 660px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-column-gap:60px;
+}
+
+.cont2 {
+        width: 660px;
+        margin: 0 auto;
+        padding-top:40px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-column-gap:60px;
+}
+
+
+.produ {
+    border-radius: 8px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+}
+
+.precio { 
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(173, 146, 104);
+    width: 180px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.valor {
+    display: inline-block;
+}
+
+.cappu {
+    margin: auto auto;
+}
+
+.nombre {
+    font-size: 15px;
+    padding-top: 15px;
+    color: rgb(173, 146, 104);
+}
+
+.bolsa {
+    margin-left: 15px;
+    margin-top: 3px;
+    filter: invert(52%) sepia(42%) saturate(323%) hue-rotate(358deg) brightness(94%) contrast(85%);
+    transition: 0.5s;
+}
+
+.bolsa:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.contenedorF {
+    width: 100%;
+    height: 470px;
+}
+
+.contFotos {
+    height: 470px;
+    display: grid;
+    background-color: rgb(173, 146, 104);
+    grid-gap: 18px;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(2,50%);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tazaa {
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+.sobreMoka {
+    width: 100%;
+    background-color: rgb(173, 146, 104);
+    height: 440px;
+}
+
+.hist {
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+}
+
+.titul {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 50px;
+}
+
+.logotext {
+    width: 30px;
+    text-align: center;
+}
+
+.locales {
+        width: 100%;
+        background-color: rgb(252, 246, 207);
+        height: 550px;
+    }
+
+
+.local {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 50px;
+}
+
+.contLocales {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-column-gap:50px;
+    justify-content: center;
+}
+
+.localUno {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(img/cafeteria.jpg);
+    height: 300px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    transition: 0.6s;
+    padding-top: 25%;
+}
+
+.localDos {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(img/local.jpg);
+    height: 300px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    transition: 0.6s;
+    padding-top: 25%;
+}
+
+.localTres {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(img/local1.jpg);
+    height: 300px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    transition: 0.6s;
+    padding-top: 25%;
+}
+
+.localUno:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.localDos:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.localTres:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.contFooter {
+    width: 100%;
+    background-color: rgb(173, 146, 104);
+    margin-bottom: 0;
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+    height: 150px;
+}
+
+.logoF {
+    width: 22px;
+}
+
+.tituFoot {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 28px;
+}
+
+.copy {
+    background-color: black;
+    color: rgb(173, 146, 104);
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+.iconos {
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon {
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
