@@ -1,0 +1,90 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+
+
+    .contHeader {
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        background-color: rgb(252, 246, 207);
+        height: 70px;
+        text-align: center;
+
+
+        .titulo {
+            text-align: center;
+            padding-top: 18px;
+
+            @include mobile {
+                font-size: 22px;
+            }
+
+            .logo {
+                width: 30px;
+
+                @include mobile {
+                    width: 24px;
+                }
+            }
+        }
+
+        .carrito {
+            width: 30px;
+            height: auto;
+            padding-top: 22px;
+            text-align: center;
+            filter: invert(52%) sepia(42%) saturate(323%) hue-rotate(358deg) brightness(94%) contrast(85%);
+            transition: 0.7s;
+
+            @include mobile {
+                width: 24px;
+            }
+
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .contNav {
+        background-color: rgb(173, 146, 104);
+        height: 40px;
+    
+
+        .barra {
+            padding-top: 10px;
+
+            .listas {
+                list-style-type: none;
+                text-align: center;
+
+                .lista {
+                    display: inline-block;
+
+                    .menu {
+                        text-decoration: none;
+                        color: black;
+                        padding-left: 12px;
+                        padding-right: 12px;
+                        font-weight: bold;
+                        font-size: 13px;
+                        transition: 0.7s;
+                        
+                        &:hover {
+                            color: white;
+                        }
+
+                        @include mobile {
+                            font-size: 11px;
+                            padding-left: 5px;
+                            padding-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
