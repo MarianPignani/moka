@@ -91,9 +91,10 @@
 }
 .main .fondoUno {
   width: 100%;
-  background-image: url(../../img/fondd.jpg);
+  background-image: url(../img/fondd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 25rem;
   background-position: center;
 }
@@ -346,7 +347,7 @@
   }
 }
 .main .locales .contLocales .localUno {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(../../img/cafeteria.jpg);
+  background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(../img/cafeteria.jpg);
   height: 300px;
   text-align: center;
   color: white;
@@ -370,7 +371,7 @@
   cursor: pointer;
 }
 .main .locales .contLocales .localDos {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(../../img/local.jpg);
+  background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(../img/local.jpg);
   height: 300px;
   text-align: center;
   color: white;
@@ -394,7 +395,7 @@
   cursor: pointer;
 }
 .main .locales .contLocales .localTres {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(../../img/local1.jpg);
+  background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(../img/local1.jpg);
   height: 300px;
   text-align: center;
   color: white;
