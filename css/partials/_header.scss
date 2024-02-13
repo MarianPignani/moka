@@ -36,9 +36,11 @@
             text-align: center;
             filter: invert(52%) sepia(42%) saturate(323%) hue-rotate(358deg) brightness(94%) contrast(85%);
             transition: 0.7s;
+            
 
             @include mobile {
                 width: 24px;
+                margin-right: 15px;
             }
 
 
