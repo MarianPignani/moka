@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/taza.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <script src="js/productos.js" defer></script>
+    <script src="js/carrito.js" defer></script>
+    <script src="js/compra.js" defer></script>
+    <title>Moka Coffe</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contHeader">
+            <div class="espacio"></div>
+            <h1 class="titulo"> <img class="logo" src="img/taza.png" alt="logo"> Moka Coffe</h1>
+            <div class="carro">
+                <a href="carrito.html"><img class="carrito" src="img/carrito.png" alt="carrito de compras"></a><span class="contador">0</span>
+            </div>
+        </div>
+        <div class="contNav">
+            <nav class="barra">
+                <ul class="listas">
+                    <li class="lista"><a class="menu" href="./index.html#productos">PRODUCTOS</a></li>
+                    <li class="lista"><a class="menu" href="./index.html#sobre">SOBRE MOKA</a></li>
+                    <li class="lista"><a class="menu" href="./index.html#locales">LOCALES</a></li>
+                    <li class="lista"><a class="menu" href="./index.html#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="compra">
+            <p id="carrito-vacio">El carrito está vacío, <a class="elige" href="./index.html#productos">elige algunos productos!</a></p>
+            <section id="cart-container">
+            </section>
+            <section id="totales">
+                <p class="total">Total unidades: <span id="cantidad">0</span></p>
+                <p class="total">Total precio: $<span id="precio">0</span></p>
+                <button class="boton" disabled>Comprar</button>
+                <button class="boton" id="reiniciar">Reiniciar</button>
+            </section>
+        </div>
+    </main>
+    <footer class="footerCarrito">
+        <div class="contFooter" id="contacto">
+            <h3 class="tituFoot"><img class="logoF" src="img/taza.png" alt="logo"> Moka Coffe</h3>
+            <div class="iconos">
+                <a class="a" href="https://www.instagram.com/" target="_blank"><img class="icon" src="img/instagram.png" alt="instagram" width="24px"></a>
+                <a class="a" href="https://www.facebook.com/" target="_blank"><img class="icon" src="img/facebook.png" alt="facebook" width="24px"></a>
+                <a class="a" href="https://linkedin.com/" target="_blank"><img class="icon" src="img/linkedin.png" alt="twitter" width="24px"></a>
+                <a class="a" href="https://gmail.com/" target="_blank"><img class="icon" src="img/email.png" alt="twitter" width="24px"></a>
+                <a class="a" href="https://whatsapp.com/" target="_blank"><img class="icon" src="img/whatsapp.png" alt="twitter" width="24px"></a>
+            </div>
+            <div class="copy">
+                <small class="copyText">&#169 2023 Moka Coffe - Todos los derechos reservados</small>
+            </div> 
+        </div>
+    </footer>
+</body>
+</html>

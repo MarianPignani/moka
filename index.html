@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moka Coffe</title>
     <link rel="icon" type="image/png" href="img/taza.png">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="script.js">
+    <script src="js/productos.js" defer></script>
+    <script src="js/carrito.js" defer></script>
+	<script src="js/script.js" defer></script>
+    <title>Moka Coffe</title>
 </head>
 <body>
     <header class="header">
@@ -14,7 +16,7 @@
             <div class="espacio"></div>
             <h1 class="titulo"> <img class="logo" src="img/taza.png" alt="logo"> Moka Coffe</h1>
             <div class="carro">
-                <img class="carrito" src="img/carrito.png" alt="carrito de compras">
+                <a href="./carrito.html"><img class="carrito" src="img/carrito.png" alt="carrito de compras"></a><span class="contador">0</span>
             </div>
         </div>
         <div class="contNav">
@@ -33,67 +35,12 @@
             <div class="contText">
                 <h2 class="text1">SOMOS UNA GENERACIÓN QUE VIVE CADA MOMENTO; QUE DISFRUTA EL HOY, Y TAMBIÉN DISFRUTA LA TRADICIÓN DEL AYER.</h2><br>
                 <h3 class="text2">CAFÉ MOKA, 100% NATURAL</h3>
-                <div class="divBoton">
-                    <button class="boton">REGISTRATE</button>
-                </div>
             </div>
         </div>
         <div class="productos" id="productos">
             <h2 class="titu">Nuestros Productos</h2>
             <div class="contProductos">
-                <div class="cont1">
-                    <div class="produ">
-                        <h3 class="nombre">Capuccino</h3>
-                        <img class="cappu" src="img/caff.jpg" alt="" width="100px">
-                        <div class="precio">
-                            <img class="bolsa" src="img/bolsa.png" alt="comprar" width="15px">
-                            <p class="valor">$2400</p>
-                        </div>
-                    </div>
-                    <div class="produ">
-                        <h3 class="nombre">Moka Latte</h3>
-                        <img class="cappu" src="img/cappu.jpg" alt="" width="100px">
-                        <div class="precio">
-                            <img class="bolsa" src="img/bolsa.png" alt="comprar" width="15px">
-                            <p class="valor">$2450</p>
-                        </div>
-                    </div>
-                    <div class="produ">
-                        <h3 class="nombre">Moka Inglés</h3>
-                        <img class="cappu" src="img/choco.jpg" alt="" width="100px">
-                        <div class="precio">
-                            <img class="bolsa" src="img/bolsa.png" alt="comprar" width="15px">
-                            <p class="valor">$2900</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="cont2">
-                    <div class="produ">
-                        <h3 class="nombre">Moka Helado</h3>
-                        <img class="cappu" src="img/frio.jpg" alt="" width="100px">
-                        <div class="precio">
-                            <img class="bolsa" src="img/bolsa.png" alt="comprar" width="15px">
-                            <p class="valor">$2700</p>
-                        </div>
-                    </div>
-                    <div class="produ">
-                        
-                        <h3 class="nombre">Moka Choco</h3>
-                        <img class="cappu" src="img/latte.jpg" alt="" width="100px">
-                        <div class="precio">
-                            <img class="bolsa" src="img/bolsa.png" alt="comprar" width="15px">
-                            <p class="valor">$2600</p>
-                        </div>
-                    </div>
-                    <div class="produ">
-                        <h3 class="nombre">Moka Vainilla</h3>
-                        <img class="cappu" src="img/vainilla.jpg" alt="" width="100px">
-                        <div class="precio">
-                            <img class="bolsa" src="img/bolsa.png" alt="comprar" width="15px">
-                            <p class="valor">$2500</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
 
         </div>
@@ -149,7 +96,5 @@
             </div> 
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>

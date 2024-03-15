@@ -11,6 +11,10 @@
         height: 70px;
         text-align: center;
 
+        @include mobile {
+            grid-template-columns: 20% 60% 20%;
+        }
+
 
         .titulo {
             text-align: center;
@@ -40,7 +44,6 @@
 
             @include mobile {
                 width: 24px;
-                margin-right: 15px;
             }
 
 
@@ -48,6 +51,11 @@
                 cursor: pointer;
                 transform: scale(1.1);
             }
+        }
+
+        .contador {
+            color: rgb(173, 146, 104);
+            font-size: 13px;
         }
     }
 

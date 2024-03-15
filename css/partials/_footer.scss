@@ -1,51 +1,56 @@
 .contFooter {
-    width: 100%;
-    background-color: rgb(173, 146, 104);
-    margin-bottom: 0;
-    display: grid;
-    grid-template-rows: 40% 40% 20%;
-    height: 150px;
+        width: 100%;
+        background-color: rgb(173, 146, 104);
+        margin-bottom: 0;
+        display: grid;
+        grid-template-rows: 40% 40% 20%;
+        height: 150px;
 
-    .tituFoot {
-        text-align: center;
-        font-size: 19px;
-        padding-top: 28px;
-    
-
-        .logoF {
-            width: 22px;
-        }
-    }
-
-    .iconos {
-        text-align: center;
-        justify-content: center;
-        padding-top: 20px;
-    
-
-        .icon {
+        .tituFoot {
             text-align: center;
-            margin-left: 8px;
-            margin-right: 8px;
+            font-size: 19px;
+            padding-top: 28px;
+        
+
+            .logoF {
+                width: 22px;
+            }
+        }
+
+        .iconos {
+            text-align: center;
+            justify-content: center;
+            padding-top: 20px;
+        
+
+            .icon {
+                text-align: center;
+                margin-left: 8px;
+                margin-right: 8px;
+                transition: 0.6s;
+
+                &:hover {
+                transform: scale(1.2);
+                }
+
+                @include mobile {
+                margin-left: 6px;
+                margin-right: 6px;
+                }
+            }
+        }
+        
+        .copy {
+            background-color: black;
+            color: rgb(173, 146, 104);
+            text-align: center;
+            justify-content: center;
+            font-weight: bold;
 
             @include mobile {
-            margin-left: 6px;
-            margin-right: 6px;
+                font-size: 13px;
+                padding-top: 4px;
             }
         }
     }
-    
-    .copy {
-        background-color: black;
-        color: rgb(173, 146, 104);
-        text-align: center;
-        justify-content: center;
-        font-weight: bold;
-
-        @include mobile {
-            font-size: 13px;
-            padding-top: 4px;
-        }
-    }
-}
 
