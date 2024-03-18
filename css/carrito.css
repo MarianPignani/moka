@@ -17,7 +17,8 @@ body {
 }
 
 #totales {
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 55px;
 }
 
 .total {
@@ -45,24 +46,67 @@ body {
   
 }
 
-.tarjeta-producto{
+#cart-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 100px;
+    height: auto;
     gap: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tarjeta-producto{
+    width: 430px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 120px;
+    gap: 20px
 }
   
 .tarjeta-producto img{
-height: 100%;
+height: 90px;
 }
 
 .tarjeta-producto h3{
 width: 130px;
+font-size: 18px;
+color: rgb(173, 146, 104);
 }
+
+.tarjeta-producto span {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(173, 146, 104);
+}
+
 .tarjeta-producto div{
 background-color: var(--color-acento-claro);
 padding: 3px;
+font-weight: bold;
+font-size: 18px;
+color: rgb(173, 146, 104);
 }  
+
+.tarjeta-producto div button {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(173, 146, 104);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.tarjeta-producto div button:hover {
+    transform: scale(1.09);
+}
 
 .footerCarrito {
     position: fixed;

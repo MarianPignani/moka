@@ -40,7 +40,7 @@
     width: 24px;
   }
 }
-.header .contHeader .carrito {
+.header .contHeader #carrito {
   width: 30px;
   height: auto;
   padding-top: 22px;
@@ -49,15 +49,15 @@
   transition: 0.7s;
 }
 @media screen and (max-width: 400px) {
-  .header .contHeader .carrito {
+  .header .contHeader #carrito {
     width: 24px;
   }
 }
-.header .contHeader .carrito:hover {
+.header .contHeader #carrito:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
-.header .contHeader .contador {
+.header .contHeader #contador {
   color: rgb(173, 146, 104);
   font-size: 13px;
 }

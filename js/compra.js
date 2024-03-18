@@ -11,9 +11,9 @@ function crearTarjetasProductosCarrito() {
   if (productos && productos.length > 0) {
     productos.forEach((producto) => {
       const nuevoProducto = document.createElement("div");
-      nuevaBicicleta.classList = "tarjeta-producto";
-      nuevaBicicleta.innerHTML = `
-        <img src="./img/productos/${producto.nombre}.jpg" alt="${producto.nombre}">
+      nuevoProducto.classList = "tarjeta-producto";
+      nuevoProducto.innerHTML = `
+        <img class="cappu" src="./img/${producto.nombre}.jpg" alt="${producto.nombre}" widht="100px">
         <h3>${producto.nombre}</h3>
         <span>$${producto.precio}</span>
         <div>
@@ -31,7 +31,7 @@ function crearTarjetasProductosCarrito() {
           crearTarjetasProductosCarrito();
           actualizarTotales();
         });
-      nuevaBicicleta
+      nuevoProducto
         .getElementsByTagName("button")[1]
         .addEventListener("click", (e) => {
           const cantidadElement = e.target.parentElement.getElementsByClassName("cantidad")[0];
